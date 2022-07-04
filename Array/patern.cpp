@@ -238,31 +238,31 @@ int main(){
 // 123****321
 // 12******21
 // 1********1
-// int n = 5;
-// for (int i = 1; i <= n; i++)
-// {
-//     for (int j = 1; j <=n-i+1 ; j++)
-//     {
-//         cout<<j;
-//     }
+int n = 5;
+for (int i = 1; i <= n; i++)
+{
+    for (int j = 1; j <=n-i+1 ; j++)
+    {
+        cout<<j;
+    }
     
     
-//     for (int k = 1; k <=i-1 ; k++)
-//     {
+    for (int k = 1; k <=i-1 ; k++)
+    {
         
-//         cout<<"*";}
-//      for (int k = 1; k <=i-1 ; k++)
-//     {
+        cout<<"*";}
+     for (int k = 1; k <=i-1 ; k++)
+    {
         
-//         cout<<"*";}
-//      for (int l = n-i+1; l >=1 ; l--)
-//     {
+        cout<<"*";}
+     for (int l = n-i+1; l >=1 ; l--)
+    {
         
-//         cout<<l;}
+        cout<<l;}
         
 
-//     cout<<endl;
-// // }
+    cout<<endl;
+ }
 // ****
 // *  *
 // *  *
@@ -433,25 +433,10 @@ int main(){
 // cout<<count<<endl;
 
 
-int n;
-cout<<"Enetr number ";
-cin>>n;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
      return 0;
     
+
 }
 
